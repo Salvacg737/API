@@ -6,9 +6,9 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-class ScrapyPipeline(object):
-    def process_item(self, item, spider):
-        return item
+#class ScrapyPipeline(object):
+#    def process_item(self, item, spider):
+#        return item
 
 class ProductItemPipeline(object):
     def process_item(self, item, Currys):
